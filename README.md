@@ -35,7 +35,11 @@
 
     > RAILS_ENV=production rake db:seed
 
-  4. Start Webistrano  
+  4. Precompile our assets
+
+    > rake assets:precompile RAILS_ENV=production
+
+  5. Start Webistrano
   
     > cd webistrano
 
