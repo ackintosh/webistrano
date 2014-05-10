@@ -4,7 +4,7 @@ gem "rails", git: "git://github.com/rails/rails.git", branch: "3-2-stable"
 
 gem "exception_notification"
 
-gem "capistrano"
+gem "capistrano", "~> 2.0"
 gem "open4"
 gem "syntax"
 gem "version_fu", :github => "jmckible/version_fu"
